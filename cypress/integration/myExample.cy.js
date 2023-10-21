@@ -5,6 +5,6 @@ describe('Cypress Website Test', () => {
       cy.visit('https://www.cypress.io/');
   
       // Check for the presence of the "Get Started" button
-      cy.contains('Get Started').should('be.visible');
+      cy.contains('Get  Started').should('be.visible');
     });
   });
